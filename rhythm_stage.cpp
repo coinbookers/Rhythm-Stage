@@ -28,3 +28,20 @@ int main() {
         } else {
             std::cout << "Good attempt.\n";
             score += 4;
+        }
+
+        std::cout << "Current score: " << score << "\n";
+    }
+
+    std::cout << "\nConcert Finished\n";
+    std::cout << "Final score: " << score << "\n";
+
+    if (score >= 50)
+        std::cout << "You are a music legend!\n";
+    else if (score >= 30)
+        std::cout << "Great performance!\n";
+    else
+        std::cout << "Keep practicing!\n";
+
+    return 0;
+}
